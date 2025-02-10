@@ -28,7 +28,7 @@ O Test Plan contém a configuração do teste de stress:
    ```sh
    jmeter -n -t ./UserRequestStressTest.jmx
 
-   # Resultados dos Testes de Stress
+# Resultados dos Testes de Stress
 
 ## Detalhes dos Testes
 Os testes de stress foram realizados para avaliar a performance do endpoint https://jsonplaceholder.typicode.com/users.
@@ -41,4 +41,4 @@ Os testes de stress foram realizados para avaliar a performance do endpoint http
 | TOTAL              | 200                | 22               | 14                | 88                | 9.31               | 0.000%              | 13.43003                     |                           
 
 ## Análise dos Resultados
-A tabela acima resume os resultados do teste de stress realizado com 100 requisições ao endpoint https://jsonplaceholder.typicode.com/users. Os detalhes incluem o código de resposta HTTP, tempos de resposta (média, mínimo, máximo e desvio padrão), percentual de erros, taxa de transferência e tamanho médio da resposta.
+A tabela acima resume os resultados do teste de stress realizado com 100 requisições ao endpoint https://jsonplaceholder.typicode.com/users. Os detalhes incluem o código de resposta HTTP, tempos de resposta (média, mínimo, máximo e desvio padrão), percentual de erros e taxa de transferência.
