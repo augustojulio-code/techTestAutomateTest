@@ -42,7 +42,3 @@ Os testes de stress foram realizados para avaliar a performance do endpoint http
 
 ## Análise dos Resultados
 A tabela acima resume os resultados do teste de stress realizado com 100 requisições ao endpoint https://jsonplaceholder.typicode.com/users. Os detalhes incluem o código de resposta HTTP, tempos de resposta (média, mínimo, máximo e desvio padrão), percentual de erros, taxa de transferência e tamanho médio da resposta.
-
----
-
-**Nota**: Ajuste os dados conforme necessário para refletir os resultados reais do seu teste de stress.
